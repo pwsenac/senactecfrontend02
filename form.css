@@ -1,0 +1,70 @@
+*{
+    font-family: 'Arial';
+  
+  }
+
+body{
+    text-align: center;
+}
+
+.col-8{
+    border-style: solid;
+    border-radius: 9px;
+    border-color: rgba(0, 0, 0, 0.473);
+}
+form{
+    color: black;
+}
+input{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+
+select{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 4px 6px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type='file'] {
+    padding: 3px 1px;
+    border-style: none;
+    border-color: whitesmoke;
+}
+
+button{
+    border-style: solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+}
+button:hover{
+    background-color: grey;
+}
+
+
+
+footer{
+    background-color: #2D4473;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+    position: relative;
+    bottom: 100;
+    margin-top: 100%;
+  }
+  .a-termos{
+    color: white
+  }
+  .a-termos:hover{
+    color: white;
+    text-decoration: underline;
+  }

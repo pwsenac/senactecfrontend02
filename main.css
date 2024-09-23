@@ -1,0 +1,148 @@
+*{
+    font-family: 'Arial';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+header{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    top: 0;
+    width: 100%;
+    font-family: 'Arial';
+    
+}
+
+nav ul{
+    margin: 0 15px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    
+}
+
+.Produtos{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.tituloloja{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+article h2{
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background-color: #2D4473;
+    color: white;
+}
+
+nav ul li a{
+    padding: 8px 20px ;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    margin: 50px;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+
+div p button{
+    background-color: white;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #2D4473;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    margin-top: 20%;
+}
+.a-termos{
+color: white;
+}
+.a-termos{
+    color: white;
+}
+
+button{
+    padding: 2px 1px;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+    text-decoration: underline;
+}
+    
+.row{
+    background-color: rgb(255, 255, 255);
+ 
+}
+
+
+.col-md{
+    box-shadow: 2px 2px 5px black;
+
+}
+
+.col-xl{
+    box-shadow: 2px 2px 5px black;
+}
+.Produtos h1{
+    color: whitesmoke;
+    background-color: #2D4473;
+    margin-bottom: 30px;
+
+}
+
+div h2{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.col{
+    background-color: #0c7ec9;
+}
+img{
+    margin-bottom: 10px;
+}
+h3{
+    font-size: medium;
+}
